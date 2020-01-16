@@ -1,0 +1,413 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic);
+
+body,html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    hyphens: auto
+}
+
+#firstSection {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #de2b24;
+    display: block;
+    min-height: 100vh;
+    height: 100%;
+    padding-top: 12.7vh
+}
+
+#secondSection,#thirdSection {
+    width: 100%;
+    display: block;
+    box-sizing: border-box
+}
+
+#secondSection {
+    height: 100%;
+    background-color: #1287bf;
+    min-height: 100vh;
+    padding-top: 11.55vh
+}
+
+#thirdSection {
+    height: 56.6%;
+    background-color: #2a2a2a;
+    padding-top: 10.3vh
+}
+
+.portfolioRow {
+    height: 50%;
+    width: 100%
+}
+
+#camTile,#lakeTile,#roadTile,#treeTile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center
+}
+
+#formblock,.icon {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.icon {
+    display: block;
+    margin-top: 8.66vh;
+    height: 14.23%;
+    width: 14.11%;
+    object-fit: contain
+}
+
+#portfolio {
+    background-color: #f35e59;
+    min-height: 58.4vh;
+    margin: auto;
+    margin-top: 5.4vh;
+    height: 58.4%;
+    width: 73.14%
+}
+
+.portfolioTile {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    transition: all 500ms ease
+}
+
+.portfolioTile:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 0 0;
+    border-radius: 5px;
+    transition: all 2s ease
+}
+
+.portfolioTile:hover:before {
+    background: rgba(155,155,155,.4);
+    height: 100%
+}
+
+.pict {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+#formblock {
+    border-radius: 5px;
+    height: 52vh;
+    width: 48.7vw;
+    background-color: #fff
+}
+
+.submitbtn {
+    margin-top: 4.16vh;
+    width: 23.5%;
+    height: 10%;
+    border-style: solid;
+    border-color: #de2b24;
+    font-size: 1.73vh;
+    color: #fff;
+    font-family: HelveticaNeue;
+    font-weight: 200;
+    border-radius: 5px;
+    background-color: #de2b24
+}
+
+#arrow,#tria,.submitbtn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#tria {
+    content: '';
+    margin-top: -1vh;
+    height: 0;
+    width: 0;
+    border: 1.7vw solid transparent;
+    border-bottom: 3.7vh solid #fff
+}
+
+#arrow {
+    margin-top: .7vh;
+    height: 7.5vh;
+    width: 7.5vh;
+    object-fit: scale-down
+}
+
+#redcircle,#whitecircle {
+    float: left;
+    margin-top: -2vh;
+    height: 5.55vh;
+    width: 5.55vh;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block
+}
+
+#redcircle {
+    margin-left: .275vh;
+    margin-top: .275vh;
+    height: 5vh;
+    width: 5vh;
+    background-color: red
+}
+
+#closebtn {
+    display: block;
+    float: left;
+    margin-left: 71.5vw
+}
+
+#close,#closebtn,.svg-cross {
+    height: 5.55vh;
+    width: 5.55vh
+}
+
+.svg-cross {
+    margin-top: 1.45vh;
+    margin-left: 1.45vh
+}
+
+#close {
+    display: block;
+    float: left;
+    margin-left: 72vw;
+    margin-top: -2.7vh;
+    object-fit: scale-down
+}
+
+.inpt:focus {
+    border-radius: 5px;
+    border: 1px solid #1287bf;
+    box-shadow: 0 0 5px rgba(18,135,191,.5)
+}
+
+.inpt {
+    box-sizing: border-box;
+    outline: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: 11.4%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #bebebe;
+    border-width: 1px;
+    margin-top: 1%;
+    padding-left: 2vw;
+    font-size: 1.61vh
+}
+
+.inpt::placeholder {
+    color: #bebebe
+}
+
+.center-cropped {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+#frm {
+    height: 100%;
+    padding-top: 4.6vh
+}
+
+h1 {
+    font-size: 4.14vh;
+    margin: 0;
+    font-weight: 300;
+    text-align: center
+}
+
+h1,h2,h3 {
+    font-family: HelveticaNeue
+}
+
+h2 {
+    font-size: 2.4vh;
+    padding: 0;
+    font-weight: 100;
+    padding-bottom: 1.25vh
+}
+
+h2,h3,h4,h5 {
+    text-align: center;
+    margin: 0
+}
+
+h3 {
+    font-size: 3vh;
+    font-weight: 200;
+    padding-top: 7%
+}
+
+h4,h5 {
+    font-size: 1.8vh
+}
+
+h1,h2,h3,h4,hr {
+    color: #fff
+}
+
+h4 {
+    font-family: HelveticaNeue;
+    font-weight: 200;
+    padding-top: 0
+}
+
+hr {
+    border: 0;
+    background-color: #fff;
+    padding: 0;
+    margin: auto;
+    height: .577vh;
+    width: 5.42vh
+}
+
+#subscrinpt,h5 {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 100
+}
+
+h5 {
+    display: block;
+    color: #b4b4b4;
+    clear: left;
+    line-height: 2vh;
+    padding-top: 2vh
+}
+
+#subscrfrm {
+    width: 48.8%;
+    height: 15.4vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5vh
+}
+
+#subscrinpt {
+    box-sizing: border-box;
+    outline: 0;
+    width: 100%;
+    height: 41.35%;
+    border-width: 0;
+    border-style: solid;
+    color: #8f8f8f;
+    background-color: #515151;
+    padding-left: 2vw;
+    font-size: 1.61vh
+}
+
+#subscrinpt:invalid {
+    border: 2px dashed red
+}
+
+#subscrinpt:valid {
+    border: 0 solid #000
+}
+
+#subscrinpt:focus {
+    border-color: #de2b24;
+    border-width: 2px
+}
+
+#subscrbutton {
+    height: 40.6%;
+    width: 11.1vw;
+    color: #fff;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+    background-color: #2a2a2a;
+    border-color: #505050;
+    margin-top: 3vh
+}
+
+#subscrbutton:hover {
+    border-color: #de2b24
+}
+
+#subscrinpt::placeholder {
+    color: #cecece
+}
+
+#formdesc {
+    padding-top: 6.12vh;
+    font-family: Helvetica;
+    color: #828282;
+    text-align: center;
+    padding-left: 4.4vw;
+    padding-right: 4.4vw;
+    font-size: 1.7vh;
+    line-height: 2.5vh
+}
+
+#contacts {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2.1vh;
+    width: 20vw;
+    height: 6vh
+}
+
+.contactbutton:last-child {
+    margin-right: 0
+}
+
+.contacticon {
+    display: block;
+    height: 1.65vw;
+    width: 1.65vw;
+    object-fit: contain;
+    margin: auto;
+    margin-top: .8vw
+}
+
+.contactbutton {
+    box-sizing: border-box;
+    width: 3.6vw;
+    height: 3.6vw;
+    margin-right: 1.43vw;
+    border-width: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #505050;
+    float: left
+}
+
+.contactbutton:hover {
+    border-color: #de2b24
+}
+
+footer {
+    background-color: #515151;
+    min-height: 7.85vh
+}
+
+@font-face {
+    font-family:'HelveticaNeue';src:url(../fonts/HelveticaNeueCyr-Medium.eot);src:url(../fonts/HelveticaNeueCyr-Medium.eot?iefix) format('eot'),url(../fonts/HelveticaNeueCyr-Medium.woff) format('woff'),url(../fonts/HelveticaNeueCyr-Medium.ttf) format('truetype');font-weight:200;font-style:normal
+}
+
+@font-face {
+    font-family:'HelveticaNeue';src:url(../fonts/HelveticaNeueCyr-Bold.eot);src:url(../fonts/HelveticaNeueCyr-Bold.eot?iefix) format('eot'),url(../fonts/HelveticaNeueCyr-Bold.woff) format('woff'),url(../fonts/HelveticaNeueCyr-Bold.ttf) format('truetype');font-weight:300;font-style:normal
+}
+
+@font-face {
+    font-family:'HelveticaNeue';src:url(../fonts/HelveticaNeueCyr-Thin.eot);src:url(../fonts/HelveticaNeueCyr-Thin.eot?iefix) format('eot'),url(../fonts/HelveticaNeueCyr-Thin.woff) format('woff'),url(../fonts/HelveticaNeueCyr-Thin.ttf) format('truetype');font-weight:100;font-style:normal
+}
